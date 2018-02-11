@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+body
+	{
+		background-color:pink; 
+	}
+
+	*{
+	margin:0px;
+	padding:0px; 
+
+      }
+		#container ul{
+
+			list-style:none; 
+		}
+		#container ul li
+		{
+			background-color:blue;
+			width:150px;
+			border:1px solid white; 
+			height:50px;
+			line-height:40px;
+			text-align:center;
+			float:left;
+			color:white;
+			font-size:18px;
+			position:relative;      
+		}
+		#container ul li:hover 
+		{
+			background-color:green;
+		}
+		#container ul ul
+		{
+             display:none; 
+		}
+		#container ul li:hover > ul
+		{
+			display: block;
+		} 
+		#container ul ul ul{
+			margin-left:150px;
+			top:0px;
+			position:absolute;   
+		}
+		#container ul li{
+			align:center;
+		}
+</style>
+<title>untitle document</title>
+</head>
+<body>
+	
+	<div id="container">
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Countries
+               <ul>
+               	<li>INDIA</li>
+               	<li>AMERICA</li>
+               	<li>LONDON</li>
+               	<li>PARIS</li>
+               	<li>RUS</li>
+               	</ul>
+            </li>
+			<li>Entertainment
+            <ul>
+            	<li>Comedy Circus</li>
+            	<li>Sad Songs</li>
+            	<li>Movies</li>
+            	<li>HollyWood
+                  <ul>
+                  	<li>HollyWood Songs</li>
+                  	<li>HollyWood Movis</li>
+                  	<li>HollyWood Actors</li>
+                  	<li>HollyWood Nature
+                  		<li>BollyWood
+            		<ul>
+            			<li>BollyWood Songs</li>
+            			<li>BollyWood Movis</li>
+            			<li>BollyWood Actors</li>
+            			<li>BollyWood Nature</li>
+            		</ul>
+                        </li>
+                  	</li>
+                  </ul>
+                </li>
+            	<li>News
+            		<ul>
+            			<li>Rajasthan</li>
+            			<li>Bihar</li>
+                        <li>Panjab</li>
+                        <li>Raipur</li>
+                        <li>M.P</li>
+
+            		</ul>
+            	</li>
+
+            </ul>                 
+			</li>
+			<li>Images
+    
+              <ul>
+              	<li>Nature Images</li>
+              	<li>Car Images</li>
+              	<li>Animals Images</li>
+              	<li>Water Drop Images</li>
+              </ul>                         
+
+			</li>
+			<li>Contect
+                     <ul>
+                   	<li>Company No.
+                   		<ul>
+                   		<li>Director no</li>	
+                   		</ul>
+                   	</li>
+                   	</ul>
+               </li>
+		</ul>
+	</div>
+
+    </body>
+</html>
